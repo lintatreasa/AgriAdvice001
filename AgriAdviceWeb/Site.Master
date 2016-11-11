@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AgriAdviceWeb.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+   
+            <div id ="id_imgHeader" style="height:130px;width:960px;">
+               <%-- <div style="position:relative;width:197px;height:130px;float:left;">
+                    <img alt="StartImg" src="../Images/vazha-1.jpg" style="position:relative;width:197px;height:130px;" />
+                </div>
+                <div style="position:relative;width:200px;height:130px;float:left;">
+                    <img alt="SecondImg" src="../Images/9538082751413457854.jpg" style="position:relative;width:200px;height:130px;"/>
+                </div>
+                <div style="position:relative;width:181px; height:130px;float:left;">
+                    <img alt="ThirdImg" src="../Images/22.jpg" style="position:relative;width:181px; height:130px;" />
+                </div>
+                <div style="position:relative;width:191px; height:130px;float:left;">
+                    <img alt="FourtgImg" src="../Images/MDG-Organic-farming-in-I-008.jpg" style="position:relative;width:191px; height:130px;" />
+                </div>
+                <div style="position:relative;width:191px; height:130px;float:left;">
+                    <img alt="FifthImg" src="../Images/TVM_Pepper.JPG" style="position:relative;width:191px; height:130px;" />
+                </div>--%>
+                <img alt="StartImg" src="../Images/New.png" style="position:relative;width:960px;height:130px;" />
+                
+               
+            </div>
+           <div  style="border:1px solid blue;height:30px;width:960px;">
+           
+           </div>
+            
+
+          <div style="border:1px solid green;height:275px;width:150px;float:left;background-image:url('../Images/mmm.jpg');">
+
+          <div style="margin-left:10px;position:relative;width:150px;height:30px;margin-top:20px;">
+                <asp:LinkButton ID="lnkHome" CssClass="clsMasterPageLinks" runat="server"  PostBackUrl="~/Home/Home.aspx" >Home</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="Lnkaccount" runat="server" CssClass="clsMasterPageLinks" >My Account</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="clsMasterPageLinks" >Agri Market</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="LinkButton2"  CssClass="clsMasterPageLinks" runat="server" PostBackUrl="~/Home/MarketPrice.aspx">Market Price</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="LinkButton3" runat="server" CssClass="clsMasterPageLinks" PostBackUrl="~/Home/farm_machinery.aspx">Farm Machinery</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="LinkButton4" runat="server"  CssClass="clsMasterPageLinks" PostBackUrl="~/Home/pesticide.aspx">Pesticide</asp:LinkButton>
+            </div>
+
+            <div style="margin-left:10px;position:relative;width:150px;height:30px;">
+                <asp:LinkButton ID="LinkButton5" runat="server" CssClass="clsMasterPageLinks"  PostBackUrl="~/Home/Seeds1.aspx">Seeds</asp:LinkButton>
+            </div>
+          </div>
+        
+        <div class="main" style="float:left;width:808px;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+            
+        </div>
+    <//div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

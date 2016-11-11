@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08489050-9DE3-44FC-B6CC-DAE05756A0CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AgriAdviceWeb</RootNamespace>
+    <AssemblyName>AgriAdviceWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Home\AgricultureDetails.aspx" />
+    <Content Include="Home\Agriofficer.aspx" />
+    <Content Include="Home\Askqus.aspx" />
+    <Content Include="Home\farmer.aspx" />
+    <Content Include="Home\farm_machinery.aspx" />
+    <Content Include="Home\Home.aspx" />
+    <Content Include="Home\MarketPrice.aspx" />
+    <Content Include="Home\MarketUpdates.aspx" />
+    <Content Include="Home\New User.aspx" />
+    <Content Include="Home\pesticide.aspx" />
+    <Content Include="Home\Seeds1.aspx" />
+    <Content Include="Home\Sentnoti.aspx" />
+    <Content Include="Home\Sentsubsidy.aspx" />
+    <Content Include="Home\Substatus.aspx" />
+    <Content Include="Images\00.jpg" />
+    <Content Include="Images\01.jpg" />
+    <Content Include="Images\02.JPG" />
+    <Content Include="Images\03.jpg" />
+    <Content Include="Images\04.jpg" />
+    <Content Include="Images\05.jpg" />
+    <Content Include="Images\06.jpg" />
+    <Content Include="Images\07.jpg" />
+    <Content Include="Images\12064719791411102412.jpg" />
+    <Content Include="Images\123.jpg" />
+    <Content Include="Images\12329037-tea-field-in-munnar-kerala-india.jpg" />
+    <Content Include="Images\16543.jpg" />
+    <Content Include="Images\22.jpg" />
+    <Content Include="Images\234.jpg" />
+    <Content Include="Images\2344.jpg" />
+    <Content Include="Images\300px-Sowing_machine_Nordsten.jpg" />
+    <Content Include="Images\34.jpg" />
+    <Content Include="Images\345.jpg" />
+    <Content Include="Images\456.jpg" />
+    <Content Include="Images\567.jpg" />
+    <Content Include="Images\678.jpg" />
+    <Content Include="Images\7 oonnidal.JPG" />
+    <Content Include="Images\78.jpg" />
+    <Content Include="Images\789.jpg" />
+    <Content Include="Images\800px-Coffee_Harvester_Mareeba.JPG" />
+    <Content Include="Images\9538082751413457854.jpg" />
+    <Content Include="Images\99.jpg" />
+    <Content Include="Images\bacteriacide.jpeg" />
+    <Content Include="Images\Bitter-gourd.jpg" />
+    <Content Include="Images\cfe.jpg" />
+    <Content Include="Images\coc.jpg" />
+    <Content Include="Images\depositphotos_12672600-Agriculture-collage.jpg" />
+    <Content Include="Images\Direct_Farm.JPG" />
+    <Content Include="Images\fugicide.jpeg" />
+    <Content Include="Images\GFUFY.jpg" />
+    <Content Include="Images\gg.jpg" />
+    <Content Include="Images\grapes-vine-m-x.jpg" />
+    <Content Include="Images\headerimg.png" />
+    <Content Include="Images\headerImgNew.png" />
+    <Content Include="Images\herbiside.jpg" />
+    <Content Include="Images\hitech_fmt.jpeg" />
+    <Content Include="Images\HJJK.jpg" />
+    <Content Include="Images\images.jpg" />
+    <Content Include="Images\images1.jpg" />
+    <Content Include="Images\index.jpg" />
+    <Content Include="Images\index1.jpg" />
+    <Content Include="Images\insecticides-all.jpg" />
+    <Content Include="Images\JHKJHL4.jpg" />
+    <Content Include="Images\JHLKLK7.jpg" />
+    <Content Include="Images\JJH.jpg" />
+    <Content Include="Images\JLIH4.jpg" />
+    <Content Include="Images\JSKHS.jpg" />
+    <Content Include="Images\kovakka.jpg" />
+    <Content Include="Images\long bean.jpg" />
+    <Content Include="Images\MDG-Organic-farming-in-I-008.jpg" />
+    <Content Include="Images\meMEHay.jpg" />
+    <Content Include="Images\miAoH6o.jpg" />
+    <Content Include="Images\Mini-Rotary-Tiller-for-Hand-Tractor.jpg" />
+    <Content Include="Images\mm,m.jpg" />
+    <Content Include="Images\mmm.jpg" />
+    <Content Include="Images\New.png" />
+    <Content Include="Images\Paddy-Rice-Harvester-4lz-2-3-Factory-Price-of-Combine-Harvester.jpg" />
+    <Content Include="Images\pile-paddy-brown-bag-35431375.jpg" />
+    <Content Include="Images\Remote-Control-Tractors-for-Farm-Remote-Mini-Crawler-Farming-Machine.jpg" />
+    <Content Include="Images\slideshow-2.png" />
+    <Content Include="Images\stock-photo-tapioca-plants-cassava-closeup-useful-as-background-for-design-works-83105725.jpg" />
+    <Content Include="Images\tajagro_vine-tomato-plant.jpg" />
+    <Content Include="Images\tom.jpg" />
+    <Content Include="Images\tomat.jpg" />
+    <Content Include="Images\TVM_Pepper.JPG" />
+    <Content Include="Images\Untitled.jpg" />
+    <Content Include="Images\vazha-1.jpg" />
+    <Content Include="Images\vegetables_EPS.jpg" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home\AgricultureDetails.aspx.cs">
+      <DependentUpon>AgricultureDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\AgricultureDetails.aspx.designer.cs">
+      <DependentUpon>AgricultureDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Agriofficer.aspx.cs">
+      <DependentUpon>Agriofficer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Agriofficer.aspx.designer.cs">
+      <DependentUpon>Agriofficer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Askqus.aspx.cs">
+      <DependentUpon>Askqus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Askqus.aspx.designer.cs">
+      <DependentUpon>Askqus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\farmer.aspx.cs">
+      <DependentUpon>farmer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\farmer.aspx.designer.cs">
+      <DependentUpon>farmer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\farm_machinery.aspx.cs">
+      <DependentUpon>farm_machinery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\farm_machinery.aspx.designer.cs">
+      <DependentUpon>farm_machinery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\MarketPrice.aspx.cs">
+      <DependentUpon>MarketPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\MarketPrice.aspx.designer.cs">
+      <DependentUpon>MarketPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\MarketUpdates.aspx.cs">
+      <DependentUpon>MarketUpdates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\MarketUpdates.aspx.designer.cs">
+      <DependentUpon>MarketUpdates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\New User.aspx.cs">
+      <DependentUpon>New User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\New User.aspx.designer.cs">
+      <DependentUpon>New User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\pesticide.aspx.cs">
+      <DependentUpon>pesticide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\pesticide.aspx.designer.cs">
+      <DependentUpon>pesticide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Seeds1.aspx.cs">
+      <DependentUpon>Seeds1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Seeds1.aspx.designer.cs">
+      <DependentUpon>Seeds1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Sentnoti.aspx.cs">
+      <DependentUpon>Sentnoti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Sentnoti.aspx.designer.cs">
+      <DependentUpon>Sentnoti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Sentsubsidy.aspx.cs">
+      <DependentUpon>Sentsubsidy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Sentsubsidy.aspx.designer.cs">
+      <DependentUpon>Sentsubsidy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Substatus.aspx.cs">
+      <DependentUpon>Substatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Substatus.aspx.designer.cs">
+      <DependentUpon>Substatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Session\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session\UserInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgriAdviceBL\AgriAdviceBL.csproj">
+      <Project>{A0E45DFD-0716-4618-92D1-E176447C73C3}</Project>
+      <Name>AgriAdviceBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AgriAdviceEntity\AgriAdviceEntity.csproj">
+      <Project>{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}</Project>
+      <Name>AgriAdviceEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56230</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

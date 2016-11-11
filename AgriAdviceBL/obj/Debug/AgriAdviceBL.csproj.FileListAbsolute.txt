@@ -1,0 +1,66 @@
+E:\MEBIN\Mini Project\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+E:\MEBIN\Mini Project\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+E:\MERLU\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+E:\MERLU\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+E:\MERLU\AgriAdvice\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+E:\MERLU\AgriAdvice\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Main\AgriAdvice\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+C:\Users\mebin\Downloads\AgriAdvice_001\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+D:\Imp\Merlu\Imp Docs\Mini Project\Review 2\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+C:\Users\mebin\Downloads\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\new1\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceBL.pdb
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.dll
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.dll
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceDL.pdb
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\bin\Debug\AgriAdviceEntity.pdb
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.csprojResolveAssemblyReference.cache
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.dll
+E:\MEBIN\Mini Project\new1\AgriAdvice\AgriAdviceBL\obj\Debug\AgriAdviceBL.pdb

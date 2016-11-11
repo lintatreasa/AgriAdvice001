@@ -1,0 +1,208 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using AgriAdviceWeb.Session;
+using AgriAdviceBL;
+using System.Data;
+using AgriAdviceEntity;
+
+namespace AgriAdviceWeb.Home
+{
+    public partial class New_User : BasePage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            //populateRoleDropDown();
+            if (!IsPostBack)
+            {
+                if (MainUserInfo.UserId != 0)
+                {
+                    if (userInfo.RoleID == Convert.ToInt32(RoleInfo.Farmer))
+                    {
+                        pnlArea.Visible = true;
+                        lnkAgriDetails.Visible = true;
+                        if (userInfo.Area != 0)
+                        {
+                            txtArea.Text = userInfo.Area.ToString();
+                        }
+                        else
+                        {
+                            txtArea.Text = "";
+                        }
+                        //ddlRole.SelectedValue = userInfo.RoleID.ToString();
+                    }
+                    else
+                    {
+                        pnlArea.Visible = false;
+                        lnkAgriDetails.Visible = false;
+                    }
+                    pnlForPassword.Visible = false;
+                    reqvalPassword.Enabled = false;
+                    RequiredFieldValidator1.Enabled = false;
+                    txtUserName.Text = userInfo.UserName;
+                    txtUserName.Enabled = false;
+                    txtHouseName.Text = userInfo.HouseName;
+                    txtHouseNumber.Text = userInfo.HouseNumber.ToString();
+                    txtPhone.Text = userInfo.MobileNumber;
+                    txtName.Text = userInfo.Name;
+                    btnSubmit.Text = "Update";
+                    btnReset.Visible = false;
+                    
+                }
+                else
+                {
+                    pnlForPassword.Visible = true;
+                    reqvalPassword.Enabled = true;
+                    RequiredFieldValidator1.Enabled = true;
+                    btnSubmit.Text = "Register";
+                    txtUserName.Enabled = true;
+                    lnkAgriDetails.Visible = false;
+                    //pnlOfficer.Visible = false;
+                    //RequiredFieldValidator6.Enabled = false;
+                }
+            }
+        }
+
+        //public void populateRoleDropDown()
+        //{
+        //    try
+        //    {
+        //        HomeBL userBL = new HomeBL();
+        //        DataSet ds = userBL.GetRoleInfo();
+        //        ddlRole.DataSource = ds.Tables[0];
+        //        ddlRole.DataTextField = "Role";
+        //        ddlRole.DataValueField = "RoleId";
+        //        ddlRole.DataBind();
+        //        ListItem litem = new ListItem("-- Select --", "0");
+        //        ddlRole.Items.Insert(0, litem);
+
+        //        ddlOficerList.DataSource = ds.Tables[1];
+        //        ddlOficerList.DataTextField = "Name";
+        //        ddlOficerList.DataValueField = "officerid";
+        //        ddlOficerList.DataBind();
+        //        ListItem item = new ListItem("-- Select --", "0");
+        //        ddlOficerList.Items.Insert(0, item);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            txtUserName.Text = "";
+            txtHouseName.Text = "";
+            txtHouseNumber.Text = "";
+            txtPhone.Text = "";
+            txtArea.Text = "";
+            txtName.Text = "";
+            lblMessage.Text = "";
+           // ddlRole.SelectedValue = "0";
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            NewUser objNewUser = new NewUser();
+            objNewUser.UserName = txtUserName.Text;
+            objNewUser.Passw0rd = txtPassword.Text;
+            objNewUser.Name = txtName.Text;
+            objNewUser.MobileNumber = txtPhone.Text;
+            objNewUser.HouseName = txtHouseName.Text;
+            objNewUser.HouseNo = Convert.ToInt32(txtHouseNumber.Text);
+            if (txtArea.Text != string.Empty)
+            {
+                objNewUser.Area = Convert.ToInt32(txtArea.Text);
+            }
+            else
+            {
+                objNewUser.Area = 0;
+            }
+            if (MainUserInfo.UserId != 0)
+            {
+                objNewUser.Flag = 2;
+                objNewUser.UserId = userInfo.UserId;
+                objNewUser.RoleId = userInfo.RoleID;
+            }
+            else
+            {
+                objNewUser.Flag = 1;
+                objNewUser.RoleId = 2;
+            }            
+            HomeBL userBL = new HomeBL();
+            string success = string.Empty;
+            int Successmsg = 0;
+            success = userBL.setFarmerDetails(objNewUser,ref Successmsg);
+            if (success == "1")
+            {
+                lblMessage.Text = "User already exists";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+            }
+            else if (success == "2")
+            {
+                lblMessage.Text = "Farmer registered successfully";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+                lnkAgriDetails.Visible = true;
+                UserInfo userInfo1 = new UserInfo();
+                userInfo1.UserId =Successmsg;
+                userInfo1.RoleID = 2;
+                userInfo1.UserName = objNewUser.UserName;
+                userInfo1.Area = objNewUser.Area;
+                userInfo1.MobileNumber = objNewUser.MobileNumber;
+                userInfo1.HouseName = objNewUser.HouseName;
+                userInfo1.HouseNumber = objNewUser.HouseNo;
+                userInfo1.Name = objNewUser.Name;
+                userInfo1.Set();
+            }
+            else if (success == "3")
+            {
+                if (userInfo.RoleID == Convert.ToInt32(RoleInfo.Farmer))
+                {
+                    lblMessage.Text = "Farmer details updated successfully";
+                }
+                else
+                {
+                    lblMessage.Text = "Agriculture Officer details updated successfully";
+                }
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+                UserInfo userInfo1 = new UserInfo();
+                userInfo1.UserId = Successmsg;
+                userInfo1.RoleID = 2;
+                userInfo1.UserName = objNewUser.UserName;
+                userInfo1.Area = objNewUser.Area;
+                userInfo1.MobileNumber = objNewUser.MobileNumber;
+                userInfo1.HouseName = objNewUser.HouseName;
+                userInfo1.HouseNumber = objNewUser.HouseNo;
+                userInfo1.Name = objNewUser.Name;
+                userInfo1.Set();
+            }
+        }
+
+        protected void lnkAgriDetails_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgricultureDetails.aspx");
+        }
+
+        //protected void ddlRole_SelectedIndexChanged(object sender, EventArgs e)
+        //{           
+        //    if (Convert.ToInt32(ddlRole.SelectedValue) == Convert.ToInt32(RoleType.Farmer))
+        //    {
+        //        pnlOfficer.Visible = true;
+        //        RequiredFieldValidator6.Enabled = true;
+        //    }
+        //    else
+        //    {
+        //        pnlOfficer.Visible = false;
+        //        RequiredFieldValidator6.Enabled = false;
+        //    }
+        //}
+
+
+    }
+}

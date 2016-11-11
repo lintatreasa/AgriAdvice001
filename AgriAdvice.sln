@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriAdviceWeb", "AgriAdviceWeb\AgriAdviceWeb.csproj", "{08489050-9DE3-44FC-B6CC-DAE05756A0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriAdviceBL", "AgriAdviceBL\AgriAdviceBL.csproj", "{A0E45DFD-0716-4618-92D1-E176447C73C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriAdviceDL", "AgriAdviceDL\AgriAdviceDL.csproj", "{56343F26-FC5D-43F2-9724-FF2FF89E38E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriAdviceEntity", "AgriAdviceEntity\AgriAdviceEntity.csproj", "{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08489050-9DE3-44FC-B6CC-DAE05756A0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08489050-9DE3-44FC-B6CC-DAE05756A0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08489050-9DE3-44FC-B6CC-DAE05756A0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08489050-9DE3-44FC-B6CC-DAE05756A0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E45DFD-0716-4618-92D1-E176447C73C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E45DFD-0716-4618-92D1-E176447C73C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E45DFD-0716-4618-92D1-E176447C73C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E45DFD-0716-4618-92D1-E176447C73C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56343F26-FC5D-43F2-9724-FF2FF89E38E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56343F26-FC5D-43F2-9724-FF2FF89E38E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56343F26-FC5D-43F2-9724-FF2FF89E38E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56343F26-FC5D-43F2-9724-FF2FF89E38E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3C6B5F-223C-42E1-B56A-C5BABA5682D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
